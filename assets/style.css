@@ -1,0 +1,87 @@
+.container-fluid {
+	background-image: url("http://img.timeinc.net/time/daily/2009/0911/360_joe_cada_b_1110.jpg");
+	background-size: cover;
+	height: 100px;
+}
+#firstRow {
+	background-color: white;
+	border: 3px solid black;
+	margin-left: 20px;
+	text-align: center;
+	font-family: "Old Style";
+	font-weight: bold;
+}
+#questionRow {
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#choicesRow {
+	margin-top: 20px;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+#timerRow {
+	font-size: 15px;
+}
+.fontChangeOne {
+	font-size: 24px;
+	color: red;
+}
+.fontChangeTwo {
+	font-size: 32px;
+	color: orange;
+}
+.modifyAnswer {
+	color: green;
+}
+#imageRow {
+	margin-top: 25px;
+}
+#imageRow img {
+	max-width: 400px;
+}
+button {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.frontImage {
+	width: 50%;
+	height: auto;
+}
+.enderText {
+	font-size: 40px;
+	line-height: 55px;
+	font-weight: bold;
+}
+.textBigger {
+	font-size: 32px;
+}
+.activeAnswer {
+	color: red;
+	padding: 5px;
+	background-color: green;
+	border: 3px solid black;
+}
+.choice:hover{
+	color: blue;
+	width: 500px;
+	height: 50px;
+	background-color: gray;
+	border: 3px solid black;
+	white-space: nowrap;
+	display: inline-block;
+}
+.introTitle {
+	font-family: "Old Style";
+	font-weight: bold;
+}
+.choice:hover{
+	color: blue;
+	width: 200px;
+	height: 50px;
+	background-color: gray;
+	border: 3px solid black;
+	white-space: normal;
+}

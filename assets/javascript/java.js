@@ -134,12 +134,12 @@ var listOfQuestions = [qOne, qTwo, qThree, qFour, qFive, qSix, qSeven];
 			areWeDoneYet();
 		};
 		function areWeDoneYet () {
-			if (currentQuestionIndex === (listOfQuestions.lenght)) {
-				setTimeout (function(){allDone()}), 6500;
+			if (currentQuestionIndex === (listOfQuestions.length)) {
+				setTimeout (function(){allDone()}), 3000;
 			}
 			else {
 				setTimeout(function () {
-					showQuestion(listOfQuestions[currentQuestionIndex])}, 6500);
+					showQuestion(listOfQuestions[currentQuestionIndex])}, 3000);
 				
 			};
 		};;
@@ -147,7 +147,6 @@ var listOfQuestions = [qOne, qTwo, qThree, qFour, qFive, qSix, qSeven];
 			displayConvertedTime = timeConverter(totalTime);
 			$("#imagesRow").empty();
 			$("#questionRow").html('<p class="enderText">Wrong ' + wrongAnswer + '</p><p class="enderText">Correct ' + correctAnswer + '</p><p class="enderText">Unanswered ' + unansweredAnswer +'</p>' + '<p>You Spent ' + displayConvertedTime + ' total on this quiz answering the questions</p>');
-				whatIsYourGrade();
 				var resetButton = $("#choiceRow").append("<div class='button'><button class='btn-danger btn-xxl'>RESTART GAME</button></div>");
 				$(resetButton).one("click", function () {
 					$("#choiceRow").empty();

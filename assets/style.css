@@ -63,14 +63,14 @@ button {
 .activeAnswer {
 	color: red;
 	padding: 5px;
-	background-color: green;
+	background-color: tan;
 	border: 3px solid black;
 }
 .choice:hover{
 	color: blue;
 	width: 500px;
 	height: 50px;
-	background-color: gray;
+	background-color: yellow;
 	border: 3px solid black;
 	white-space: nowrap;
 	display: inline-block;
@@ -83,7 +83,7 @@ button {
 	color: blue;
 	width: 200px;
 	height: 50px;
-	background-color: gray;
+	background-color: yellow;
 	border: 3px solid black;
 	white-space: normal;
 }

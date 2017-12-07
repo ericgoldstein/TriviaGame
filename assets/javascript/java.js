@@ -147,7 +147,7 @@ var listOfQuestions = [qOne, qTwo, qThree, qFour, qFive, qSix, qSeven];
 			displayConvertedTime = timeConverter(totalTime);
 			$("#imagesRow").empty();
 			$("#questionRow").html('<p class="enderText">Wrong ' + wrongAnswer + '</p><p class="enderText">Correct ' + correctAnswer + '</p><p class="enderText">Unanswered ' + unansweredAnswer +'</p>' + '<p>You Spent ' + displayConvertedTime + ' total on this quiz answering the questions</p>');
-				var resetButton = $("#choiceRow").append("<div class='button'><button class='btn-danger btn-xxl'>RESTART GAME</button></div>");
+				var resetButton = $("#choiceRow").append("<div class='button'><button class='btn-success btn-xxl'>RESTART GAME</button></div>");
 				$(resetButton).one("click", function () {
 					$("#choiceRow").empty();
 					correctAnswer = 0;
@@ -176,8 +176,8 @@ var listOfQuestions = [qOne, qTwo, qThree, qFour, qFive, qSix, qSeven];
 		$(document).ready(function() {
 			var topTitle = $("<h1 class='introTitle'>Poker Triva Game</h1>");
 			$("#firstRow").prepend(topTitle);
-			$("#questionRow").append("<p>Press the Start Game Button to Begin. Triva questions will be displayed. Click the answer you believe to be correct.  You will be alerted if your answer was correct or incorrect and then the game will move you on to the next question. At the end the game will let you know how many questions you got right and wrong and how much time you spent overall answering questions on the quiz. Enjoy!</p>");
-			var startButton = $("#firstRow").append("<div class='button'><button class='btn-warning btn-lg'>START GAME<?button></div>");
+			$("#questionRow").append("<p>Press the Start Game Button to Begin. Triva questions will be displayed. Click the answer you believe to be correct.  You will be alerted if your answer was correct or incorrect and then the game will move you on to the next question. At the end the game will let you know how many questions you got right and wrong and how much time you spent overall answering questions on the quiz. Have Fun!</p>");
+			var startButton = $("#firstRow").append("<div class='button'><button class='btn-primary btn-lg'>START GAME<?button></div>");
 			$("#firstRow").append("<br><br><br><br><br><br><br><br>");
 			$(startButton).one("click", function () {
 				$("button").remove();

@@ -16,9 +16,10 @@
 	margin-left: 10px;
 	margin-right: 10px;
 	color: black;
+	font-family: "Cortado";
 }
 #choicesRow {
-	margin-top: 20px;
+	margin-top: 40px;
 	font-size: 30px;
 	line-height: 40px;
 	text-align: center;
@@ -76,13 +77,13 @@ button {
 	display: inline-block;
 }
 .introTitle {
-	font-family: "Old Style";
+	font-family: "Cortado";
 	font-weight: bold;
 }
 .choice:hover{
 	color: blue;
-	width: 200px;
-	height: 50px;
+	width: 500px;
+	height: 40px;
 	background-color: yellow;
 	border: 3px solid black;
 	white-space: normal;

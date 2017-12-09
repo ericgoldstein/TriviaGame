@@ -118,10 +118,10 @@ var listOfQuestions = [qOne, qTwo, qThree, qFour, qFive, qSix, qSeven];
 				if (timeAllowed === 0) {
 						clearInterval(counter);
 						unansweredAnswer++;
-						timeout ();
+						timeOut ();
 				}
 				else if (timeAllowed <=5) {
-					$("#timeRow").addClass(fontChangeOne);
+					$("#timeRow").addClass("fontChangeOne");
 				};
 		};
 		function timeOut() {
@@ -135,11 +135,14 @@ var listOfQuestions = [qOne, qTwo, qThree, qFour, qFive, qSix, qSeven];
 		};
 		function areWeDoneYet () {
 			if (currentQuestionIndex === (listOfQuestions.length)) {
-				setTimeout (function(){allDone()}), 3000;
+				setTimeout (function(){
+					allDone()
+				}, 3000);
 			}
 			else {
 				setTimeout(function () {
-					showQuestion(listOfQuestions[currentQuestionIndex])}, 3000);
+					showQuestion(listOfQuestions[currentQuestionIndex])
+				}, 3000);
 				
 			};
 		};;
